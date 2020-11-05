@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Estrutura_Restaurante">
+  <Items>
+    <LogicalFolder Name="Conexões" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="PABLOVICTOR:PABLOVICTOR\Pablo Victor">
+          <Created>2020-11-05T19:47:29.6777232-03:00</Created>
+          <Type>SQL</Type>
+          <Server>PABLOVICTOR</Server>
+          <UserName />
+          <Authentication>Autenticação do Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Consultas" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CONSTRAINTS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CONSTRAINTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EXECS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EXECS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT,UPDATE,DELETE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>INSERT,UPDATE,DELETE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_AGENDA_CLIENTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_AGENDA_CLIENTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_DIRECIONA_AGENDA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_DIRECIONA_AGENDA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tables Temp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tables Temp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Views.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Diversos" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Estrutura_Restaurante", "Estrutura_Restaurante\Estrutura_Restaurante.ssmssqlproj", "{394BA03E-9404-4A3D-9F0F-3F7F173DB765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394BA03E-9404-4A3D-9F0F-3F7F173DB765}.Default|Default.ActiveCfg = Default
+		{A42EA2E0-43F7-42E7-9B2F-B4BC37766589}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EF9962B-A1CD-4849-AF9E-F448F3C6129D}
+	EndGlobalSection
+EndGlobal
