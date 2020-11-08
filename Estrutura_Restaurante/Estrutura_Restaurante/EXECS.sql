@@ -1,20 +1,57 @@
-DECLARE @HORARIO DATETIME;
-SET @HORARIO = '29/10/2020 22:00'
+-- ORDEM DE EXECUÇÃO
 
-INSERT INTO AGENDA
-(LUGARES,HORARIO,ID_FUNCIONARIO,ID_CLIENTE)
-VALUES(5,@HORARIO,1,12);
+-- AGENDANDO CLIENTES ---INICIO--------------------------------------------------------------------------
 
-.
-EXEC SP_AGENDA_CLIENTE 'S','10000000001','00000000004',NULL,NULL,NULL,NULL,'30-10-2020 22:30',5;
+SELECT * FROM VW_CLIENTES
+GO
+SELECT * FROM VW_AGENDAMENTO
+GO
+
+EXEC SP_AGENDA_CLIENTE 'S','10000000001','00000000020','BERRY ALEN','BERRY@EMAIL.COM','11900001001',NULL,'08-11-2020 18:49',2;
 --COM CLIENTE JÁ CADASTRADO.
+GO
+
+SELECT * FROM VW_AGENDAMENTO GO
+
+-- AGENDANDO CLIENTES ---FIM-----------------------------------------------------------------------------
+
+-- DIRECIONANDO AGENDA ---INICIO--------------------------------------------------------------------------
+
+SELECT * FROM VW_AGENDAMENTO GO
+
+EXEC SP_DIRECIONA_AGENDA 'S','0000000020','BERRY ALEN';
+--DIRECIONANDO AGENDAMENTO PARA MESA OU FILA
+GO
+
+SELECT * FROM ##FILA GO
+SELECT *FROM VW_MESA GO
+
+-- DIRECIONANDO AGENDA ---FIM--------------------------------------------------------------------------
+
+-- GERENCIA FILA ---INICIO-----------------------------------------------------------------------------
+SELECT * FROM ##FILA GO
+
+EXEC SP_GERENCIA_FILA 1
+-- GERENCIANDO A FILA
+GO
+
+SELECT * FROM VW_MESA GO
+-- GERENCIA FILA ---FIM-----------------------------------------------------------------------------
+
+-- ANOTA PEDIDO ---INICIO---------------------------------------------------------------------------
+EXEC SP_ANOTA_PEDIDO 'Virada Paulista','SEM CEBOLA','10000000001', 1
+GO
+
+SELECT * FROM VW_PEDIDOS
 
 
-EXEC SP_AGENDA_CLIENTE 'N','10000000001','00000000004','FULANO DE TAL 4','FULANO4@EMAIL.COM',
-'11900000004','','29/10/2020 20:00',1;
---COM CLIENTE SE CADASTRANDO JUNTO
+-- ANOTA PEDIDO ---FIM------------------------------------------------------------------------------
 
-EXEC SP_AGENDA_CLIENTE 'S','10000000001','00000000004',NULL,NULL,NULL,NULL,'28-10-2020 20:00',5;
---HORARIO JÁ EXISTENTE
+SELECT * FROM FUNCIONARIOS
+SELECT * FROM MESA
+SELECT * FROM PEDIDOS
 
-DROP PROC SP_AGENDA_CLIENTE
+
+
+
+
