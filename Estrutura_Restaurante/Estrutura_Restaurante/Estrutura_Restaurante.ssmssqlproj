@@ -49,11 +49,23 @@
           <AssociatedConnUserName />
           <FullPath>SP_ANOTA_PEDIDO.sql</FullPath>
         </FileNode>
+        <FileNode Name="SP_CADASTRO_FUNC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_CADASTRO_FUNC.sql</FullPath>
+        </FileNode>
         <FileNode Name="SP_DIRECIONA_AGENDA.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_DIRECIONA_AGENDA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_ENTREGA_PEDIDOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_ENTREGA_PEDIDOS.sql</FullPath>
         </FileNode>
         <FileNode Name="SP_GERENCIA_FILA.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>

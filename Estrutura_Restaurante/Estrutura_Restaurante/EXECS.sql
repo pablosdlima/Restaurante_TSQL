@@ -1,5 +1,12 @@
 -- ORDEM DE EXECUÇÃO
 
+--CADASTRANDO FUNCIONÁRIOS --INICIO
+EXEC SP_CADASTRO_FUNCIONARIO 'ALFREDO','10000000002','02-05-2000','GARÇOM'
+
+SELECT * FROM FUNCIONARIOS GO
+--CADASTRANDO FUNCIONÁRIOS --FIM
+
+
 -- AGENDANDO CLIENTES ---INICIO--------------------------------------------------------------------------
 
 SELECT * FROM VW_CLIENTES
@@ -59,14 +66,19 @@ VALUES(GETDATE(),'SEM CEBOLA',1,1,3)
 
 select * from PEDIDOS
 
-SELECT * FROM VW_PEDIDOS -- ERRO
-SELECT * FROM PEDIDOS
-SELECT * FROM ##LISTA
-
-delete from PEDIDOS
-
+SELECT * FROM VW_PEDIDOS GO
 
 -- ANOTA PEDIDO ---FIM------------------------------------------------------------------------------
+
+--ENTREGA PEDIDO --INICIO---------------------------------------------------------------------------
+SELECT * FROM ##LISTA GO
+
+EXEC SP_ENTREGA_PEDIDO 1
+
+SELECT * FROM VW_PEDIDOS GO
+
+--ENTREGA PEDIDO --FIM---------------------------------------------------------------------------
+
 
 SELECT * FROM FUNCIONARIOS
 SELECT * FROM MESA
