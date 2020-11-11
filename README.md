@@ -1,7 +1,7 @@
 # Restaurante_TSQL
 -- Funções de auxilio e controle para um sistema de um restaurante feito em Sql Server.
 
-## Demostração:
+## Demonstração:
 
 ### --Cadastrando funcionários
 
