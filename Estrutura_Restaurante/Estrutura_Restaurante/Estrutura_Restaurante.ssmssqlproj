@@ -3,10 +3,10 @@
   <Items>
     <LogicalFolder Name="Conexões" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="HSM-20\HSM20:HSM-20\Pablo">
-          <Created>2020-11-09T10:43:21.6019691-03:00</Created>
+        <ConnectionNode Name="PABLOVICTOR:PABLOVICTOR\Pablo Victor">
+          <Created>2020-11-10T21:40:35.2849208-03:00</Created>
           <Type>SQL</Type>
-          <Server>HSM-20\HSM20</Server>
+          <Server>PABLOVICTOR</Server>
           <UserName />
           <Authentication>Autenticação do Windows</Authentication>
           <InitialDB />
@@ -20,74 +20,74 @@
     <LogicalFolder Name="Consultas" Type="0" Sorted="true">
       <Items>
         <FileNode Name="CONSTRAINTS.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CONSTRAINTS.sql</FullPath>
         </FileNode>
         <FileNode Name="EXECS.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>EXECS.sql</FullPath>
         </FileNode>
         <FileNode Name="INSERT,UPDATE,DELETE.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>INSERT,UPDATE,DELETE.sql</FullPath>
         </FileNode>
         <FileNode Name="SP_AGENDA_CLIENTE.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_AGENDA_CLIENTE.sql</FullPath>
         </FileNode>
         <FileNode Name="SP_ANOTA_PEDIDO.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_ANOTA_PEDIDO.sql</FullPath>
         </FileNode>
         <FileNode Name="SP_CADASTRO_FUNC.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_CADASTRO_FUNC.sql</FullPath>
         </FileNode>
         <FileNode Name="SP_DIRECIONA_AGENDA.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_DIRECIONA_AGENDA.sql</FullPath>
         </FileNode>
         <FileNode Name="SP_ENTREGA_PEDIDOS.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_ENTREGA_PEDIDOS.sql</FullPath>
         </FileNode>
         <FileNode Name="SP_GERENCIA_FILA.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SP_GERENCIA_FILA.sql</FullPath>
         </FileNode>
         <FileNode Name="Tables Temp.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Tables Temp.sql</FullPath>
         </FileNode>
         <FileNode Name="Tables.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Tables.sql</FullPath>
         </FileNode>
         <FileNode Name="Views.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HSM-20\HSM20:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HSM-20\HSM20</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PABLOVICTOR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PABLOVICTOR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Views.sql</FullPath>
         </FileNode>
